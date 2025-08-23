@@ -56,3 +56,10 @@ a:visited {
 a:hover {
     text-decoration-style: dotted;
 }
+
+#logo {
+    width: 80%;
+    max-width: 69em;
+    display: block;
+    margin: 0 auto;
+}

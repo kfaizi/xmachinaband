@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- <a  href="/assets/images/hajimekneel.png"> -->
-<img src="/assets/images/hajimekneel.png" height="666em">
+<img src="/assets/images/hajimekneel.png" id="logo">
 <!-- </a> -->
 
 <!-- to be made into active links: -->
