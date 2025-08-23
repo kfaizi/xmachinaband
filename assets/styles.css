@@ -1,0 +1,58 @@
+:root {
+    --text-color: white;
+    /* --accent-color: #12a8ce; */
+    --background-color: black;
+    --link-color: white;
+    /* --visited-link-color: #551A8B; */
+    font-feature-settings: "liga" 0, 'calt' 1;
+    font-family: Inter, Arial, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 24px;
+    color: var(--text-color);
+    line-height: 1.5em;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    display: flex;
+    margin: 40px 0;
+    /* padding: 40px 0; */
+    /* text-align: justify; */
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+    display: inline;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration-thickness: 1px;
+}
+
+/* a:visited {
+    color: var(--visited-link-color);
+} */
+
+a:visited {
+    color: var(--link-color);
+}
+
+a:hover {
+    text-decoration-style: dotted;
+}
