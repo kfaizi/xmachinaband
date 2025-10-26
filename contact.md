@@ -5,6 +5,6 @@ title: contact
 
 # contact
 
-email: <a href="mailto:machhaus.mari@gmail.com">machhaus.mari@gmail.com</a>
+email: <a href="mailto:mari@xmachinaband.com">mari@xmachinaband.com</a>
 
 instagram: <a href="https://www.instagram.com/xmachinaband/">@xmachinaband</a>
