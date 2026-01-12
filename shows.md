@@ -13,3 +13,5 @@ don't forget to tell them you're here to see us!
 - thurs, sept 4 2025 @ boomtown brewery dtla // [tickets](https://www.eventbrite.com/e/songwriter-series-los-angeles-tickets-1554394970199)
 - sun, sept 21 2025 @ the fable eagle rock // free!
 - wed, oct 8 2025 @ [rocknite.la](https://rocknite.la/), the goldfish hlp // free!
+- sat, jan 17 2026 @ old towne pub pasadena // 8 pm // cash at door
+- thus, feb 12 2026 @ boomtown brewery dtla // tickets soon
