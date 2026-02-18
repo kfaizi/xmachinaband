@@ -1,7 +1,6 @@
 :root {
     --text-color: black;
     --accent-color: #09C3D7;
-    /* --background-color: white; */
     --background-color: #F7F7F7;
     --link-color: #09C3D7;
     --visited-link-color: #551A8B;
@@ -9,15 +8,21 @@
     font-family: "Inconsolata", monospace;
 }
 
-html, body {
+html {
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
     scroll-behavior: smooth;
+    /* background-color: black; */
+    background-color: var(--background-color);
 }
 
 body {
-    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+    /* font-size: 24px; */
+    font-size: 1.3em;
     color: var(--text-color);
 }
 
@@ -43,8 +48,9 @@ a:hover {
 }
 
 #logo {
-    width: 66%;
-    max-width: 1024px;
+    max-width: 50vw;
+    width: 80%;
+    min-width: 80%;
     display: block;
     margin: 0 auto;
 }
@@ -111,6 +117,16 @@ table, th, td {
     padding: 2px 10px;
     line-height: 1em;
     text-align: justify;
+    font-size : clamp(0.3rem, 3vw, 1.5rem);
+}
+
+th {
+    background-color: var(--accent-color);
+    text-align: center;
+}
+
+td {
+    padding: 0.5rem 0.8rem;
 }
 
 .shows-wrap {
@@ -125,6 +141,12 @@ table, th, td {
 
 #shows-past .show {
   opacity: 0.45;
+}
+
+#shows-past th {
+    background-color: grey;
+    /* color: white; */
+    opacity: 0.45;
 }
 
 #shows-past .show a { 
@@ -148,4 +170,20 @@ table, th, td {
   margin-top: 20px;
   vertical-align: middle;
   width: 100%;
+}
+
+.quote {
+    margin: 0.75rem auto;
+    max-width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 2px ridge black;
+}
+
+.quote div {
+    display: block;
+    font-size: 1rem;
+    padding: inherit;
+    margin: 0 auto;
+    color: #888;
+    text-align: right;
 }

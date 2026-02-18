@@ -7,36 +7,6 @@ title: shows
 
 tell them you're here to see Xmachina!
 
-
-<!-- ## upcoming
-
-<ul id="shows-upcoming">
-{% for show in site.data.shows %}
-  <li class="show" data-date="{{ show.date | date_to_xmlschema }}">
-      {{ show.date | date: '%a, %b %d, %Y'  }} @ {{ show.venue }} // {{ show.tix }}
-  </li>
-{% endfor %}
-</ul>
-
-## past
-<ul id="shows-past"></ul>
-
-
-<script>
-(function () {
-  const now = new Date();
-  const pastList = document.getElementById("shows-past");
-
-  document.querySelectorAll("#shows-upcoming .show").forEach(li => {
-    const d = new Date(li.dataset.date);
-    if (!isNaN(d) && d < now) {
-      li.classList.add("is-past");
-      pastList.prepend(li); // moves node
-    }
-  });
-})();
-</script> -->
-
 <div class="shows-wrap">
 
   <h2>upcoming</h2>
@@ -44,9 +14,9 @@ tell them you're here to see Xmachina!
   <table id="shows-upcoming" class="shows">
     <thead>
       <tr>
-        <th>Date</th>
-        <th>Venue</th>
-        <th>Link</th>
+        <th>when</th>
+        <th>where</th>
+        <th>info</th>
       </tr>
     </thead>
     <tbody>
@@ -65,9 +35,9 @@ tell them you're here to see Xmachina!
   <table id="shows-past" class="shows">
     <thead>
       <tr>
-        <th>Date</th>
-        <th>Venue</th>
-        <th>Link</th>
+        <th>when</th>
+        <th>where</th>
+        <th>info</th>
       </tr>
     </thead>
     <tbody></tbody>
